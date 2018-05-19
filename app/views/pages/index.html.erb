@@ -1,0 +1,655 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Cyclical</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Our Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">The Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welcome To Cyclical!</div>
+          <div class="intro-heading text-uppercase">Let's Bike the World!</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted">We're here to take care of you through your final mile!</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Accommodations</h4>
+            <p class="text-muted">You can rest assured your dollars are helping support local economies all while treading lightly on the environment of your chosen locale.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Gear Transport</h4>
+            <p class="text-muted">Just wake up and ride, everyday. We'll take care of loading and transporting all of your gear to the next site on your route.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-cutlery fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Your Hunger is Covered</h4>
+            <p class="text-muted">During your daily rides we will provide you with plenty of snacks and treats to keep you powered while you hammer the pedals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Locations</h2>
+            <h3 class="section-subheading text-muted">Please take a peek at our current trips</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "british_columbia.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>British Columbia</h4>
+              <p class="text-muted">Gravel/Trail</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "germany.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Germany</h4>
+              <p class="text-muted">Gorgeous Road Riding</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "new_zealand.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>New Zealand</h4>
+              <p class="text-muted">Speactacular Coastal Trails</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "moab.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Moab</h4>
+              <p class="text-muted">Shred the Desert</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "asheville.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Asheville</h4>
+              <p class="text-muted">Fall Road Extravaganza</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <%= image_tag "montana.jpg", class: 'img-fluid' %>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Montana</h4>
+              <p class="text-muted">High Alpine Glory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About Cyclical</h2>
+            <h3 class="section-subheading text-muted">This is how it all came to be...</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <%= image_tag "mountain.jpg", class: 'rounded-circle img-fluid' %>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2013</h4>
+                    <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Kay and Larry meet in Switzerland during the tail end of each of their professional mountain biking careers.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <%= image_tag "airplane.jpg", class: 'rounded-circle img-fluid' %>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>March 2014</h4>
+                    <h4 class="subheading">The Cyclical idea is hatched</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">We love mountain biking so much we started taking friends and relatives on trips to trails that blew their minds. At one point Kay's uncle remarked, 'You realize you could just do this for a living?' That was it...we began!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <%= image_tag "computer.jpg", class: 'rounded-circle img-fluid' %>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>February 2015</h4>
+                    <h4 class="subheading">Full team was assembled</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">As we began offering more destinations, our bookings grew quickly and around the same time we met Diana and she was a perfect addition to the team. She took over all reservations and community outreach which allowed Kay and I to focus all of our efforts into the trip planning to make them EPIC!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <%= image_tag "4.jpg", class: 'rounded-circle img-fluid' %>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Today</h4>
+                    <h4 class="subheading">Full steam ahead!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">We currently offer 6 destinations for amazing biking adventures. We hope to add a few more in the future, but we want to maintain the highest quality possible in order to stay true to our original mission, which was to respect the land where we bike and always give back to communities nearest those wonderful areas.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of Our
+                    <br>Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h3 class="section-subheading text-muted">Everything is better on a bike!</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <%= image_tag "1.jpg", class: 'mx-auto rounded-circle' %>
+              <h4>Kay Garland</h4>
+              <p class="text-muted">Destination Lead Director / Tour Guide</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <%= image_tag "2.jpg", class: 'mx-auto rounded-circle' %>
+              <h4>Larry Parker</h4>
+              <p class="text-muted">Gear Transport / Accommodations</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <%= image_tag "3.jpg", class: 'mx-auto rounded-circle' %>
+              <h4>Diana Pertersen</h4>
+              <p class="text-muted">Reservations / Community Outreach</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">We are a dynamic trio that communicates well and has made it our top priority to ensure that your vacation meets your craziest expectations! If we can be doing things better let us know how!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <%= image_tag "envato.jpg", class: 'img-fluid d-block mx-auto' %>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <%= image_tag "designmodo.jpg", class: 'img-fluid d-block mx-auto' %>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <%= image_tag "themeforest.jpg", class: 'img-fluid d-block mx-auto' %>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <%= image_tag "creative-market.jpg", class: 'img-fluid d-block mx-auto' %>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Reach out if you're ready for some adventure!</h3>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form method="POST" action="https://formspree.io/rails.jimmyturner@gmail.com">
+                <div class="form-group">
+                  <input name="name" placeholder="Enter your name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Enter email here" class="form-control">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Enter your message" class="form-control"></textarea>
+                </div>
+                <input type="hidden" name="_next" value="//localhost:3000" />
+                <div class="form-group">
+                    <button type="submit" class="form-control">Send</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Powered by &copy;<%= link_to 'HundoLab', 'http://www.hundolab.com', target: "#" %></span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">British Columbia</h2>
+                  <p class="item-intro text-muted">The best gravel/trail riding in North America!</p>
+                  <%= image_tag "british_columbia.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>This amazing adventure in BC will allow you to see some of the most remote areas that abound with stunning scenery and wild trails. You will spend 7 days/6 nights immersed in some of the best mountain biking in the world, not to mention, gourmet dining each night.</p>
+                  <ul class="list-inline">
+                    <li>Trip starts: June 10</li>
+                    <li>Price: $1,000/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Germany</h2>
+                  <p class="item-intro text-muted">Smooth flowy road riding injected with amazing culture.</p>
+                  <%= image_tag "germany.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>This trip is packed with breath taking scenery, big road climbs and rich German culture. Your legs will be spent, your belly full and beer taste buds satisfied! Come join us!</p>
+                  <ul class="list-inline">
+                    <li>Trip Starts: May 22nd</li>
+                    <li>Price: $950/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">New Zealand</h2>
+                  <p class="item-intro text-muted">Trails are a little different in the southern hemisphere!</p>
+                  <%= image_tag "new_zealand.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>There is something truly special about riding big mountains on perfect single track and then looking up to realize the ocean is laid out before you. This is our most scenic trip as the ocean/mountain contrast leaves most of our clients in awe! Don't miss this trip!</p>
+                  <ul class="list-inline">
+                    <li>Trip starts: August 18th</li>
+                    <li>Price: $1850/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Moab</h2>
+                  <p class="item-intro text-muted">Desert riding at its best!</p>
+                  <%= image_tag "moab.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>The red rocks and reptiles will make you forget about the dust and sand in your shoes and pants when you join us in Moab for the ultimate in mountain bike culture! We will traverse some prestine landscape that contains remnants of past native culture that is truly stunning.</p>
+                  <ul class="list-inline">
+                    <li>Trip starts: September 10th</li>
+                    <li>Price: $850/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Asheville</h2>
+                  <p class="item-intro text-muted">Fall colors are poppin'</p>
+                  <%= image_tag "asheville.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>If you haven't been to Asheville in October, well, you just haven't lived! We will get out on amazing road routes on the blue ridge parkway during the day and expose you to wonderfull beer culture at night! This is a special place!</p>
+                  <ul class="list-inline">
+                    <li>Trip starts: October 1st</li>
+                    <li>Price: $850/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Montana</h2>
+                  <p class="item-intro text-muted">High alpine single track awaits you</p>
+                  <%= image_tag "montana.jpg", class: 'img-fluid d-block mx-auto' %>
+                  <p>Love bears and crazy single track? We do too!! The combination of altitude and mountain beauty will make you happy you spent the week with us. Let's ride!!</p>
+                  <ul class="list-inline">
+                    <li>Trip starts: June 30th</li>
+                    <li>Price: $1100/person</li>
+                    <li>Skill Level: All levels welcome</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Trip Description</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
